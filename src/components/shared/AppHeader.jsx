@@ -1,11 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-// import logoLight from '../../images/logo-light.svg';
-// import logoDark from '../../images/logo-dark.svg';
 import { FiMenu, FiX } from 'react-icons/fi';
 import signatureLight from '../../assets/Signature-Light.svg';
-import { motion } from 'framer-motion';
-import Button from '../reusable/Button';
 
 const AppHeader = () => {
 	const [showMenu, setShowMenu] = useState(false);
