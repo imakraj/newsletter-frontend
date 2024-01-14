@@ -4,6 +4,7 @@ import axios from "axios";
 
 // const backend_server = "https://newsletter-backend-srsp.onrender.com"
 const backend_server = "https://server.ashmitshahi.com"
+// const backend_server = "http://localhost:3000"
 
 const AppBanner = () => {
     const [email, setEmail] = useState("");
