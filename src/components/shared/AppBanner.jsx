@@ -2,7 +2,8 @@ import React, { useState } from 'react'
 import newsletter from '../../images/newsletter.png';
 import axios from "axios";
 
-const backend_server = "https://newsletter-backend-srsp.onrender.com"
+// const backend_server = "https://newsletter-backend-srsp.onrender.com"
+const backend_server = "https://server.ashmitshahi.com"
 
 const AppBanner = () => {
     const [email, setEmail] = useState("");
